@@ -1,0 +1,118 @@
+/* -------------------------------------LOGIN----------------------------------------------------- */
+body
+{
+    background-color:rgb(26,25,25);
+    background-image: url("/image.png");
+}
+form
+{
+    background-color: white;
+    box-shadow: 0 0 10px rgb(138, 137, 137);
+    border-radius: 8px;
+    text-align: center;
+    width: 532px;
+    height: 490px;
+}
+form h1
+{
+    margin-top: 50px;
+}
+.loginbody
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 800px;
+    align-items: center;
+}
+.inputbox
+{
+  
+    margin-top: 22px;
+}
+.inputbox input
+{
+  
+    width: 363px;
+    padding: 13px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/* .rem-forget
+{
+    display: flex;
+    flex-direction: row;
+} */
+ .rem-forget input
+{
+   margin-left: 75px;
+  margin-right: 3px;
+} 
+/* .rem-forget label
+{
+   margin-left: 80px;
+}   */
+.rem-forget p
+{
+    margin-left: 230px;
+    margin-top: -16px;
+    font-size: 15px;
+    font-weight: bold;
+ 
+}
+.rem-forget p:hover
+{
+    transform: translateY(-1px);
+}
+
+
+.rem
+{
+    display: flex;
+}
+.loginbtn
+{
+    margin-top: 15px;
+    width: 372px;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.loginbtn:hover
+{
+    background-color: #4b4949;
+}
+.loginbtn a
+{
+   text-decoration: none;
+   color: white;
+   font-size: 14px;
+}
+
+.accinfo
+{
+    display: flex;
+    margin-left: 120px;
+}
+.accinfo p
+{
+    font-size: 19px;
+}
+.accinfo a
+{
+   text-decoration: none;
+   color: black;
+   margin-top: 17px;
+   margin-left: 12px;
+   font-size: 19px;
+   font-weight: bold;
+}
+.accinfo a:hover
+{
+    transform: translateY(-1px);
+}
